@@ -6,9 +6,13 @@
   /* overlay on hero */
   background-color: #ecfcfe;
 
-  /* Take up % of screen when loaded */
-  height: 73vh;
 }
+
+/********************** 
+    
+    NAV IN HERO IMAGE 
+
+***********************/
 
 .hero-nav {
   display: flex;
@@ -51,4 +55,51 @@ div img:nth-child(1) {
   text-decoration: none;
 
  
+}
+
+/********************** 
+    
+    TEXT FOR HERO IMAGE 
+
+***********************/
+
+.hero-build-community {
+
+    margin-top: 70px;
+    border: 2px solid blue;
+
+    /* create flex container */
+    display: flex;
+    justify-content: space-evenly;
+    /* center itmes vertically */
+    align-items: center;
+
+
+}
+
+.community-text {
+
+    width: 40%;
+    border: 2px solid green;
+
+}
+
+.community-text > h1 {
+
+    width: 70%;
+    font-size: 50px;
+
+    border: 2px solid black;
+}
+
+.community-text > p {
+
+    /* width: 70%; */
+    font-size: 24px;
+
+    border: 2px solid black;
+}
+
+#mockups-image {
+    width: 40%;
 }
