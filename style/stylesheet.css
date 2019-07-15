@@ -1,49 +1,54 @@
 .hero-container {
+  /* Set bacgrkound image to fit the size of div */
+  background-image: url(../images/bg-hero-desktop.svg);
+  background-size: cover;
 
-    /* Set bacgrkound image to fit the size of div */
-    background-image: url(../images/bg-hero-desktop.svg);
-    background-size: cover;
+  /* overlay on hero */
+  background-color: #ecfcfe;
 
-    background-color: #ecfcfe;
-
-    /* Take up % of screen when loaded */
-    height: 73vh;
-
-    /* Create flex container */
-    /* display: flex; */
-    /* flex-direction: row; */
-
+  /* Take up % of screen when loaded */
+  height: 73vh;
 }
 
 .hero-nav {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+  /* create space between nav container and top of page */
+  padding-top: 38px;
 
-    padding-top: 38px;
-
-    border: 1px solid navy;
-
+  /* border: 1px solid navy; */
 }
 
-.myButton {
-	box-shadow:inset 0px 0px 50px 30px #ffffff;
-	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0);
-	background-color:#ffffff;
-	border-radius:27px;
-    border:2px solid #dcdcdc;
-    
-    /* button dimensions */
-    padding:19px 61px;
+/* First image in navbar (logo) */
+div img:nth-child(1) {
+  /* move logo right */
+  margin-left: 7vh;  
+  /* border: 1px solid black; */
+}
 
-    /* font */
-	color:#666666;
-	font-family:Arial;
-	font-size:17px;
-	font-weight:bold;
-    text-decoration:none;
-    
-    margin-left: auto;
+.try-it-button {
+  box-shadow: inset 0px 0px 50px 30px #ffffff;
+  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0);
+  background-color: #ffffff;
+  border-radius: 27px;
+  border: 2px solid #dcdcdc;
+
+  /* button dimensions */
+  padding: 19px 61px;
+
+  /* Button position */
+  margin-left: auto;
+  margin-right: 7vh;
+
+  /* font */
+  color: #666666;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+
+ 
 }
