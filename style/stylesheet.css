@@ -1,3 +1,9 @@
+body {
+  Font-Size: 18px;
+  font-family: [Open Sans](https://fonts.google.com/specimen/Open+Sans);
+  font-weight: 400, 700;
+}
+
 .hero-container {
   /* Set bacgrkound image to fit the size of div */
   background-image: url(../images/bg-hero-desktop.svg);
@@ -70,7 +76,7 @@ div img:nth-child(1) {
 
     /* create flex container */
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     /* center itmes vertically */
     align-items: center;
 
@@ -80,7 +86,13 @@ div img:nth-child(1) {
 .community-text {
 
     width: 40%;
-    border: 2px solid green;
+    height: 300px;
+    border: 2px solid purple;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 
 }
 
@@ -94,10 +106,10 @@ div img:nth-child(1) {
 
 .community-text > p {
 
-    /* width: 70%; */
+    
     font-size: 24px;
 
-    border: 2px solid black;
+    border: 2px solid yellow;
 }
 
 #mockups-image {
