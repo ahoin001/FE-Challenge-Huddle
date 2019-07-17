@@ -1,7 +1,9 @@
 body {
   Font-Size: 18px;
-  font-family: [Open Sans](https: //fonts.google.com/specimen/Open+Sans);
-      font-weight: 400, 700;
+
+  /* font-family: [Open Sans](https://fonts.google.com/specimen/Open+Sans); */
+
+  font-weight: 400, 700;
   }
 
   .hero-container {
@@ -76,18 +78,19 @@ body {
 
     /* create flex container */
     display: flex;
+    justify-content: center;
     /* center itmes vertically */
     align-items: center;
 
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
   }
 
   #mockups-image {
-    
-    width: 850px;
-    
 
-    border: 2px solid black;
+    width: 850px;
+
+
+    /* border: 2px solid black; */
   }
 
   .community-text {
@@ -100,16 +103,16 @@ body {
     /* justify-content: s */
 
     margin-top: 30px;
-    margin-left: 70px;
+    margin-right: 70px;
 
 
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
 
   }
 
   .community-text > h1 {
 
-    
+
     font-size: 50px;
 
     /* border: 2px solid black; */
@@ -143,3 +146,10 @@ body {
 
 
   }
+
+
+  /********************** 
+    
+    BEGINNING OF MAIN 
+
+***********************/
