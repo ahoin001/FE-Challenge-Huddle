@@ -1,155 +1,154 @@
 body {
-  Font-Size: 18px;
+  font-size: 18px;
 
   /* font-family: [Open Sans](https://fonts.google.com/specimen/Open+Sans); */
 
   font-weight: 400, 700;
-  }
+}
 
-  .hero-container {
-    /* Set bacgrkound image to fit the size of div */
-    background-image: url(../images/bg-hero-desktop.svg);
-    background-size: cover;
+.hero-container {
+  /* Set bacgrkound image to fit the size of div */
+  background-image: url(../images/bg-hero-desktop.svg);
+  background-size: cover;
 
-    /* overlay on hero */
-    background-color: #ecfcfe;
+  /* overlay on hero */
+  background-color: #ecfcfe;
+}
 
-  }
-
-  /********************** 
+/********************** 
     
     NAV IN HERO IMAGE 
 
 ***********************/
 
-  .hero-nav {
-    display: flex;
-    /* justify-content: space-between; */
-    align-items: center;
+.hero-nav {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
 
-    /* create space between nav container and top of page */
-    padding-top: 38px;
+  /* create space between nav container and top of page */
+  padding-top: 38px;
 
-    /* border: 1px solid navy; */
-  }
+  /* border: 1px solid navy; */
+}
 
-  /* First image in navbar (logo) */
-  div img:nth-child(1) {
-    /* move logo right */
-    margin-left: 7vh;
-    /* border: 1px solid black; */
-  }
+/* First image in navbar (logo) */
+div img:nth-child(1) {
+  /* move logo right */
+  margin-left: 7vh;
+  /* border: 1px solid black; */
+}
 
-  .try-it-button {
-    box-shadow: inset 0px 0px 50px 30px #ffffff;
-    background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6', GradientType=0);
-    background-color: #ffffff;
-    border-radius: 27px;
-    border: 2px solid #dcdcdc;
+.try-it-button {
+  box-shadow: inset 0px 0px 50px 30px #ffffff;
+  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6', GradientType=0);
+  background-color: #ffffff;
+  border-radius: 27px;
+  border: 2px solid #dcdcdc;
 
-    /* button dimensions */
-    padding: 19px 61px;
+  /* button dimensions */
+  padding: 19px 61px;
 
-    /* Button position */
-    margin-left: auto;
-    margin-right: 7vh;
+  /* Button position */
+  margin-left: auto;
+  margin-right: 7vh;
 
-    /* font */
-    color: #666666;
-    font-family: Arial;
-    font-size: 15px;
-    font-weight: bold;
-    text-decoration: none;
+  /* font */
+  color: #666666;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
 
-
-  }
-
-  /********************** 
+/********************** 
     
     TEXT FOR HERO IMAGE 
 
 ***********************/
 
-  .hero-build-community {
+.hero-build-community {
+  margin-top: 70px;
 
-    margin-top: 70px;
+  /* create flex container */
+  display: flex;
+  justify-content: center;
+  /* center itmes vertically */
+  align-items: center;
 
+  /* border: 2px solid blue; */
+}
 
-    /* create flex container */
-    display: flex;
-    justify-content: center;
-    /* center itmes vertically */
-    align-items: center;
+#mockups-image {
+  width: 850px;
 
-    /* border: 2px solid blue; */
-  }
+  /* border: 2px solid black; */
+}
 
-  #mockups-image {
+.community-text {
+  height: 400px;
 
-    width: 850px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: s */
 
+  margin-top: 30px;
+  margin-right: 70px;
 
-    /* border: 2px solid black; */
-  }
+  /* border: 2px solid purple; */
+}
 
-  .community-text {
+.community-text > h1 {
+  font-size: 50px;
 
-    height: 400px;
+  /* border: 2px solid black; */
+}
 
+.community-text > p {
+  margin-top: 40px;
 
-    display: flex;
-    flex-direction: column;
-    /* justify-content: s */
+  font-size: 24px;
+  line-height: 35px;
 
-    margin-top: 30px;
-    margin-right: 70px;
+  /* border: 2px solid yellow; */
+}
 
+.get-started-button-1 {
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 28px;
+  /* border:1px solid #18ab29; */
+  display: inline-block;
+  color: #ffffff;
+  /* font-family:Arial; */
+  font-size: 17px;
+  padding: 20px 76px;
+  text-decoration: none;
 
-    /* border: 2px solid purple; */
+  margin-top: 30px;
+}
 
-  }
-
-  .community-text > h1 {
-
-
-    font-size: 50px;
-
-    /* border: 2px solid black; */
-  }
-
-  .community-text > p {
-
-    margin-top: 40px;
-
-
-    font-size: 24px;
-    line-height: 35px;
-
-    /* border: 2px solid yellow; */
-  }
-
-
-  .get-started-button-1 {
-
-    background-color:hsl(322, 100%, 66%);
-    border-radius:28px;
-    /* border:1px solid #18ab29; */
-    display:inline-block;
-    color:#ffffff;
-    /* font-family:Arial; */
-    font-size:17px;
-    padding:20px 76px;
-    text-decoration:none;
-
-    margin-top: 30px;
-
-
-  }
-
-
-  /********************** 
+/********************** 
     
     BEGINNING OF MAIN 
 
 ***********************/
+
+main {
+  
+  border: 3px solid green;
+  /* Push away from Below Hero Image */
+  margin-top: 130px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  border: 1px solid blue;
+
+  /* dimensions of cards */
+  width: 90%;
+  height: 500px;
+}
