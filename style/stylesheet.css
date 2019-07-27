@@ -276,6 +276,44 @@ main {
   line-height: 35px;
 }
 
-footer {
-  background-color: hsl(208, 11%, 55%);
+/********************** 
+
+    FOOTER CSS
+
+***********************/
+
+#footer {
+  /* colors */
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+
+  /* box model */
+  padding-top: 100px;
+  margin-top: 70px;
+
+  /* flex Container */
+  display: flex;
+  flex-direction: row;
+  align-items: center
+
+}
+
+.col-1 {
+  border: 3px red solid;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 200px;
+
+}
+.col-2 {
+  
+  border: 1px seagreen solid;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 200px;
+
 }
