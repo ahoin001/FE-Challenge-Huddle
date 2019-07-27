@@ -22,7 +22,6 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 600;
-  
 }
 
 /********************** 
@@ -57,11 +56,10 @@ body {
   /* border: 1px solid navy; */
 }
 
-/* First image in navbar (logo) */
-div img:nth-child(1) {
-  /* move logo right */
-  margin-left: 7vh;
-  /* border: 1px solid black; */
+#huddle-logo {
+    /* move logo right */
+    margin-left: 7vh;
+    /* border: 1px solid black; */
 }
 
 .try-it-button {
@@ -108,6 +106,7 @@ div img:nth-child(1) {
 
 #mockups-image {
   width: 850px;
+  margin-bottom: 60px;
 
   /* border: 2px solid black; */
 }
@@ -177,8 +176,6 @@ main {
 ***********************/
 
 .card {
-  
-
   /* dimensions of cards */
   width: 85%;
   height: 490px;
@@ -192,7 +189,6 @@ main {
   display: flex;
   flex-direction: row;
   align-items: center;
-  
 }
 
 .card-text {
@@ -204,6 +200,7 @@ main {
 
   /* Spacing of box  */
   margin-left: 15%;
+  margin-top: 60px;
 }
 
 .card-text p {
@@ -226,6 +223,35 @@ main {
 
 ***********************/
 
+.card-reverse {
+  /* dimensions of cards */
+  width: 85%;
+  height: 490px;
+
+  /* Box Model for cards, pushes previous card up */
+  margin-top: 30px;
+
+  /* shadow for box */
+  box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.3);
+
+  display: flex;
+  align-items: center;
+
+}
+
+/* TODO ask jack why margin left isn't working */
+.card-reverse-img {
+  border: 1px solid blue;
+
+  /* image dimesnions */
+  width: 550px;
+  height: 400px;
+
+  /* margin-left: 500px; */
+  margin-right: 90px;
+  margin-left: 5px;
+}
+
 .card-reverse-text {
   border: 1px solid green;
 
@@ -234,7 +260,7 @@ main {
   width: 600px;
 
   /* Spacing of box  */
-  
+  margin-left: 90px;
 }
 
 .card-reverse-text p {
@@ -243,14 +269,4 @@ main {
   /* margin-top: 20px; */
 
   line-height: 35px;
-}
-
-.card-reverse-img {
-  border: 1px solid blue;
-  
-  /* image dimesnions */
-  width: 550px;
-  height: 400px;
-  
-  /* margin-left: 290px; */
 }
