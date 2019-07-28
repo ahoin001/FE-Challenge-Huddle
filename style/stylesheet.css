@@ -288,32 +288,41 @@ main {
   color: white;
 
   /* box model */
-  padding-top: 100px;
+  /* padding-top: 100px; */
   margin-top: 70px;
 
   /* flex Container */
   display: flex;
   flex-direction: row;
-  align-items: center
+  align-items: center;
+  /* justify-content: space-evenly; */
 
 }
 
-.col-1 {
+.column {
   border: 3px red solid;
 
   display: flex;
   flex-direction: column;
-
-  width: 200px;
+  align-items: center;
+  width: 400px;
 
 }
-.col-2 {
-  
-  border: 1px seagreen solid;
 
-  display: flex;
-  flex-direction: column;
+.column-text {
+   /* space between each text */
+   margin-top: 15px;
+}
 
-  width: 200px;
+.col-1 {
+
+width: 300px;
+
+}
+
+.text-next-to-logo {
+
+  /* to allow image to be left of text */
+  display: inline;
 
 }
