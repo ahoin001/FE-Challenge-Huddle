@@ -288,7 +288,7 @@ main {
   color: white;
 
   /* box model */
-  /* padding-top: 100px; */
+  padding-top: 200px 0;
   margin-top: 70px;
 
   /* flex Container */
