@@ -332,6 +332,7 @@ main {
 .column {
   border: 3px red solid;
 
+<<<<<<< HEAD
   /* dimensions */
   width: 40em;
 
@@ -384,20 +385,31 @@ main {
 
   /* margin-bottom: 1.6em; */
 
+=======
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+
+>>>>>>> parent of 7382a94... Set Up alignment for icon column in footer
 }
 
 .column-text {
-  
-  /* dimensions */
-  width: 14em;
-
-  /* space between each text */
-   border: 1px solid green;
+   /* space between each text */
    margin-top: 15px;
-
-
-   display: flex;
-   justify-content: space-between;
 }
 
 
+<<<<<<< HEAD
+=======
+width: 300px;
+
+}
+
+.text-next-to-logo {
+
+  /* to allow image to be left of text */
+  display: inline;
+
+}
+>>>>>>> parent of 7382a94... Set Up alignment for icon column in footer
