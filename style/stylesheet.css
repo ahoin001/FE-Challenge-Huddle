@@ -302,27 +302,72 @@ main {
 .column {
   border: 3px red solid;
 
+  /* dimensions */
+  width: 400px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
+  
+  /* Box Model  */
+  padding: 7em 0;
+
+}
+
+.column-1 {
+  border: 1px blue solid;
+
+  /* dimensions */
   width: 400px;
+
+  display: flex;
+  justify-content: center;
+  
+  /* Box Model  */
+  /* padding: 7em 0; */
+
+}
+
+.icon-column {
+
+  border: 1px solid green;
+
+  /* dimensions */
+  height: 10em;
+
+  display: inline-flex;
+  flex-direction: column;
+
+}
+
+.text-column {
+
+  border: 1px solid yellow;
+
+  /* dimensions */
+  height: 10em;
+
+  display: inline-flex;
+  flex-direction: column;
 
 }
 
 .column-text {
-   /* space between each text */
+  
+  /* dimensions */
+  width: 14em;
+
+  /* space between each text */
+   border: 1px solid green;
    margin-top: 15px;
+
+
+   display: flex;
+   justify-content: space-between;
 }
 
 .col-1 {
 
 width: 300px;
-
-}
-
-.text-next-to-logo {
-
-  /* to allow image to be left of text */
-  display: inline;
 
 }
