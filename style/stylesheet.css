@@ -299,6 +299,9 @@ main {
 
 }
 
+
+/* TODO How to Structure footer */
+
 .column {
   border: 3px red solid;
 
@@ -310,7 +313,7 @@ main {
   align-items: center;
   
   /* Box Model  */
-  padding: 7em 0;
+  /* padding: 7em 0; */
 
 }
 
