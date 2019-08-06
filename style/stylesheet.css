@@ -288,7 +288,7 @@ main {
   color: white;
 
   /* box model */
-  padding-top: 200px 0;
+  padding: 5em 0px;
   margin-top: 70px;
 
   /* flex Container */
@@ -299,14 +299,48 @@ main {
 
 }
 
+<<<<<<< HEAD
 
 /* TODO How to Structure footer */
+=======
+.icon-column {
+
+  border: 1px solid green;
+
+  /* dimensions */
+  /* height: 14em; */
+  width: 40em;
+
+  /* box */
+  /* margin-right: 2em; */
+  
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+
+.icon-column p{
+
+  margin-bottom: 1.5em;
+
+}
+.icon-column p img{
+
+  margin-right: 1.5em;
+
+}
+>>>>>>> 8277874abddcd53e58d0f93afa9025386b65e25f
 
 .column {
   border: 3px red solid;
 
+
+
   /* dimensions */
-  width: 400px;
+  width: 40em;
 
   display: flex;
   flex-direction: column;
@@ -331,15 +365,12 @@ main {
 
 }
 
-.icon-column {
+.icon-column img {
 
-  border: 1px solid green;
+  /* margin-bottom: 1em; */
 
-  /* dimensions */
-  height: 10em;
+  /* width: 1.2em; */
 
-  display: inline-flex;
-  flex-direction: column;
 
 }
 
@@ -348,29 +379,52 @@ main {
   border: 1px solid yellow;
 
   /* dimensions */
-  height: 10em;
+  /* height: 10em; */
 
   display: inline-flex;
   flex-direction: column;
+  align-items: flex-start;
 
 }
+
+.text-column p {
+
+  /* margin-bottom: 1.6em; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+
+
+}
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+
+}
+
 
 .column-text {
-  
-  /* dimensions */
-  width: 14em;
-
-  /* space between each text */
-   border: 1px solid green;
+   /* space between each text */
    margin-top: 15px;
-
-
-   display: flex;
-   justify-content: space-between;
 }
 
-.col-1 {
+
 
 width: 300px;
 
 }
+
+.text-next-to-logo {
+
+  /* to allow image to be left of text */
+  display: inline;
+
+
+}
+
+}
+
